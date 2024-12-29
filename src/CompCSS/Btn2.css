@@ -1,0 +1,25 @@
+.button2-container {
+    display: flex;
+    justify-Content: center;
+    align-items: center;
+    padding-top: 5vh; 
+}
+
+.button2 {
+    position: relative;
+    color: #ec763b;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20%;
+    padding: 40px 80px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}

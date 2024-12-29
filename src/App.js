@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import BtnDoThings from "./CompJS/Btn.js";
+/*import Btn2DoThings from "./CompJS/Btn2.js";*/
+import Header from "./CompJS/Header.js";
+import Navbar from "./CompJS/Navbar.js";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Navbar />
+      <BtnDoThings />
     </div>
   );
 }

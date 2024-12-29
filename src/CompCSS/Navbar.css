@@ -1,0 +1,17 @@
+.navbar-container {
+     position: absolute;
+     top: 8px;
+     right: 0;
+     /*transform: translate(-50%, 50%);*/
+     width: 170px;
+     height: 200px;
+     background-color: rgb(79, 8, 8);
+     
+}
+
+.navbar {
+    font-style: oblique;
+    font-size: 50px;
+    color: bisque;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
