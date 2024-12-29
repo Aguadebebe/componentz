@@ -1,0 +1,14 @@
+.button-fetch {
+    position: flex;
+    Justify-content: center;
+    align-items: center;
+    color:rgb(85, 62, 27);
+    font-size: 20px;
+    z-index: 40;
+}
+
+.api-text {
+    font-style:oblique;
+    font-size: 30px;
+    color:black;
+}
