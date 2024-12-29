@@ -10,7 +10,7 @@ function BtnDoThings() {
     const clrSwitch = () => {
         setBgColor((currentColor) => (currentColor === "aquamarine" ? "red" : "aquamarine"));
 */
- const [image, setImage] = useState(0);
+ const [imageIndex, setImageIndex] = useState(0);
 
  const images = [ "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAgMBAJRMyisAAAAASUVORK5CYII=",
                   "https://images.pexels.com/photos/101529/pexels-photo-101529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -18,23 +18,20 @@ function BtnDoThings() {
                   "https://images.pexels.com/photos/91216/pexels-photo-91216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 ];
 
- const flipImageChange = (index) => {
-    setImage(index);
+ const flipImageChange = () => {
+    setImageIndex((currentIndex) => (currentIndex + 1) % images.length);
  }
     
     return (
-<div>
-<img src={images[image]} alt="currentImage" />
-<div className="button-container">
-  {images.map((image, index) => (
-       
-    <button  className="button" key={index} onClick={() => flipImageChange(index)}>
-     pics {index + 1}
-    </button>
-  ))}
- 
-</div>
-</div>
+     <div>
+      <img src={images[imageIndex]} alt="currentImage" />
+       <div className="button-container">
+        <button  className="button" onClick={flipImageChange}>
+         Pics
+        </button>
+       </div>
+     </div>
+    
     );
 };
 
