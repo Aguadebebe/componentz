@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Aguadebebe/componentz/static/css/main.3704c226.css",
-    "main.js": "/Aguadebebe/componentz/static/js/main.45b6e12b.js",
-    "index.html": "/Aguadebebe/componentz/index.html",
-    "main.3704c226.css.map": "/Aguadebebe/componentz/static/css/main.3704c226.css.map",
-    "main.45b6e12b.js.map": "/Aguadebebe/componentz/static/js/main.45b6e12b.js.map"
+    "main.css": "/componentz/static/css/main.3704c226.css",
+    "main.js": "/componentz/static/js/main.45b6e12b.js",
+    "index.html": "/componentz/index.html",
+    "main.3704c226.css.map": "/componentz/static/css/main.3704c226.css.map",
+    "main.45b6e12b.js.map": "/componentz/static/js/main.45b6e12b.js.map"
   },
   "entrypoints": [
     "static/css/main.3704c226.css",
